@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login to Access Dhanvantari Bot</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      text-align: center;
+    }
+    button {
+      padding: 12px 24px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: none;
+      background-color: #0088cc;
+      color: white;
+      cursor: pointer;
+    }
+    #startBot {
+      display: none;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to Dhanvantari Health Portal 🚑</h1>
+  <p>Please login to access the Health Assistant Bot.</p>
+
+  <button onclick="fakeLogin()">Login</button>
+
+  <div id="startBot">
+    <h3>You're logged in! 🎉</h3>
+    <a href="https://t.me/svajiva_bot?start=abhiram123" target="_blank">
+      <button>Start Health Assistant Bot</button>
+    </a>
+  </div>
+
+  <script>
+    function fakeLogin() {
+      // Simulate login success
+      document.getElementById('startBot').style.display = 'block';
+    }
+  </script>
+
+</body>
+</html>
